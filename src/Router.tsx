@@ -1,9 +1,9 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import { Home } from "./Home.tsx";
 import { DefaultLayout } from "./_layout/defaultLayout";
 import { PostsDetails } from "./components/PostsDetails/index.tsx";
 
-export const router = createBrowserRouter(
+export const router = createHashRouter(
   [
     {
       path: "/",
@@ -14,7 +14,4 @@ export const router = createBrowserRouter(
       ],
     },
   ],
-  {
-    basename: "/GitHubBlog", 
-  }
 );

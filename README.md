@@ -1,50 +1,57 @@
-# React + TypeScript + Vite
+# 💻 GitHub Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
+</div>
 
-Currently, two official plugins are available:
+Uma página **desktop** web que utiliza da API do GitHub para buscar issues de um repositório, dados do seu perfil e exibir elas como um blog. Desenvolvida com base no design disponibilizado pela Rocketseat durante o curso de ReactJS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="./src/assets/fotoProjeto.png"/>*Imagem meramente ilustrativa, pois ela muda dependendo do tamanho da tela do seu computador!
+ 
 
-## Expanding the ESLint configuration
+## 🚀 Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Listagem do seu perfil com imagem, número de seguidores, nome e outras informações disponíveis pela API do GitHub.
+- Listar e filtrar todas as issues do repositório com um pequeno resumo do conteúdo dela
+- Barra de pesquisa que busque pelos títulos e descrição dos issues
+- Criar uma página para exibir um post (issue) completo
 
-- Configure the top-level `parserOptions` property like this:
+## 📌 Desafios enfrentados 
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+
+
+## 🌐 Deploy no GitHub Pages
+
+O projeto está disponível online via GitHub Pages. Acesse <a href="helzaaragao.github.io/GitHubBlog/">aqui</a> para visualizar.
+
+
+### 🛠️ Dependências e Versões Utilizadas
+
+React: 18.3.1 | Typescript: 5.7.3 | Vite: 6.1.1 | Styled-components: 6.1.15 | Phosphor-icons/react: 2.1.7
+
+
+### 📂 Como rodar o projeto na sua máquina local
+
+OBS: é preciso já ter instalado o node.js, vscode ou um terminal da sua preferência para executar os comandos!
+
+Clone esse repositório para os seus arquivos:
+```
+git clone https://github.com/helzaaragao/CoffeeDelivery.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Depois, vá até a pasta que você acabou de criar com o comando anterior:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+```
+cd "CoffeeDelivery"
+```
+E instale todas as depedências e versões utilizadas por esse projeto:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```
+npm install
+```
+Finalmente, rode no seu localhost:
+```
+npm run dev
 ```

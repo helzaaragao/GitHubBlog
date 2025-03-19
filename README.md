@@ -13,13 +13,14 @@ Uma página **desktop** web que utiliza da API do GitHub para buscar issues de u
 
 ## 🚀 Funcionalidades
 
-- Listagem do seu perfil com imagem, número de seguidores, nome e outras informações disponíveis pela API do GitHub.
-- Listar e filtrar todas as issues do repositório com um pequeno resumo do conteúdo dela
-- Barra de pesquisa que busque pelos títulos e descrição dos issues
-- Criar uma página para exibir um post (issue) completo
+- **Listagem do perfil**: Exibe informações do perfil do GitHub, incluindo imagem, número de seguidores, nome e outros dados disponíveis na API do GitHub.
+- **Listagem e filtragem de issues**: Lista todas as issues de um repositório, com um breve resumo do conteúdo de cada uma, e permite filtrá-las conforme necessário.
+- **Barra de pesquisa**: Permite buscar issues por título e descrição, facilitando a localização de tópicos específicos.
+- **Página de posts completos**: Exibe o conteúdo completo das issues (posts) em uma página dedicada.
 
 ## 📌 Desafios enfrentados 
 
+Um dos principais desafios foi trabalhar com **requisições estáticas para buscar dados da API do GitHub**. Isso incluiu: Trazer informações do meu próprio perfil do GitHub e exibir issues de um repositório que não é de minha autoria, o que exigiu um cuidado adicional para garantir que os dados fossem carregados corretamente e de forma eficiente.
 
 
 ## 🌐 Deploy no GitHub Pages

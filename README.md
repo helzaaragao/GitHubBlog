@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
 </div>
 
-Uma página **desktop** web que utiliza da API do GitHub para buscar issues de um repositório, dados do perfil e exibir elas como um blog. Desenvolvido com base no design disponibilizado pela Rocketseat durante o curso de **ReactJS**.
+Uma página **desktop** web que utiliza da API do GitHub para buscar issues de um repositório, dados do perfil e exibir elas como um blog. Desenvolvido com o design disponibilizado pela Rocketseat durante o curso de **ReactJS**.
 
 <img src="./src/assets/screencapture-helzaaragao-github-io-GitHubBlog.png"/>*Imagem meramente ilustrativa, pois ela mudar dependendo do tamanho da tela do seu computador!
 

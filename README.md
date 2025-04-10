@@ -43,7 +43,7 @@ OBS: é preciso já ter instalado o node.js, vscode ou um terminal da sua prefer
 
 Clone esse repositório para os seus arquivos:
 ```
-git clone https://github.com/helzaaragao/CoffeeDelivery.git
+git clone https://github.com/helzaaragao/GitHubBlog.git
 ```
 
 Depois, vá até a pasta que você acabou de criar com o comando anterior:

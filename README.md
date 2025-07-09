@@ -8,7 +8,7 @@
 
 Uma página **desktop** web que utiliza da **API do GitHub** para buscar issues de um repositório, dados do perfil e exibir elas como um blog. Desenvolvido com o design disponibilizado pela Rocketseat durante o curso de ReactJS.
 
-<img src="./src/assets/screencapture-helzaaragao-github-io-GitHubBlog.png"/>*As imagens são meramente ilustrativas, pois podem variar dependendo do tamanho da tela utilizada*
+<img src="./src/assets/screencapture-helzaaragao-github-io-GitHubBlog.png"/>*A imagem é meramente ilustrativa, pois pode variar dependendo do tamanho da tela utilizada*
 
 
  

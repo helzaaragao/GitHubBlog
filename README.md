@@ -6,9 +6,9 @@
   <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
 </div>
 
-Uma página **desktop** web que utiliza da API do GitHub para buscar issues de um repositório, dados do perfil e exibir elas como um blog. Desenvolvido com o design disponibilizado pela Rocketseat durante o curso de **ReactJS**.
+Uma página **desktop** web que utiliza da **API do GitHub** para buscar issues de um repositório, dados do perfil e exibir elas como um blog. Desenvolvido com o design disponibilizado pela Rocketseat durante o curso de ReactJS.
 
-<img src="./src/assets/screencapture-helzaaragao-github-io-GitHubBlog.png"/>*Imagem meramente ilustrativa, pois ela pode mudar dependendo do tamanho da tela do seu computador!
+<img src="./src/assets/screencapture-helzaaragao-github-io-GitHubBlog.png"/>*As imagens são meramente ilustrativas, pois podem variar dependendo do tamanho da tela utilizada*
 
 
  
@@ -34,7 +34,7 @@ O projeto está disponível online via GitHub Pages. Acesse <a href="helzaaragao
 
 ### 🛠️ Dependências e Versões Utilizadas
 
-React: 18.3.1 | Typescript: 5.7.3 | Vite: 6.1.1 | Styled-components: 6.1.15 | Phosphor-icons/react: 2.1.7
+**React**: 18.3.1 | **Typescript**: 5.7.3 | **Vite**: 6.1.1 | **Styled-components**: 6.1.15 | **Phosphor-icons/react**: 2.1.7
 
 
 ### 📂 Como rodar o projeto na sua máquina local
@@ -49,7 +49,7 @@ git clone https://github.com/helzaaragao/GitHubBlog.git
 Depois, vá até a pasta que você acabou de criar com o comando anterior:
 
 ```
-cd "CoffeeDelivery"
+cd "GitHubBlog"
 ```
 E instale todas as depedências e versões utilizadas por esse projeto:
 
